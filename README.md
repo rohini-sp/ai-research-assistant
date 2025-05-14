@@ -6,11 +6,11 @@ This project is an AI-powered research assistant that processes academic PDFs an
 
 ## 🔍 Features
 
-- 📄 **PDF Ingestion**: Parses and chunks academic papers into semantically meaningful segments.
-- 🔎 **Semantic Search**: Uses sentence embeddings and FAISS to retrieve the most relevant sections based on user queries.
-- 🧾 **Contextual Summarization**: Generates concise answers using the `facebook/bart-large-cnn` model.
-- 📚 **Multi-document Support**: Retrieves and summarizes content across multiple PDFs.
-- ⚙️ **Modular Design**: Easily extendable to support evaluation (RAGAS), translation, or other LLMs.
+-  **PDF Ingestion**: Parses and chunks academic papers into semantically meaningful segments.
+-  **Semantic Search**: Uses sentence embeddings and FAISS to retrieve the most relevant sections based on user queries.
+-  **Contextual Summarization**: Generates concise answers using the `facebook/bart-large-cnn` model.
+-  **Multi-document Support**: Retrieves and summarizes content across multiple PDFs.
+-  **Modular Design**: Easily extendable to support evaluation (RAGAS), translation, or other LLMs.
 
 ---
 
@@ -43,13 +43,13 @@ This project is an AI-powered research assistant that processes academic PDFs an
 
 ## 📈 Planned Extensions
 
-- 🔍 Integrate RAGAS for automated answer evaluation.
-- 🧠 Improve chunking and ranking heuristics.
-- 🌐 Enable multilingual question answering.
+-  Integrate RAGAS for automated answer evaluation.
+-  Improve chunking and ranking heuristics.
+-  Enable multilingual question answering.
 
 ---
 
-## Setup
+## 🛠️  Setup
 
 ```bash
 pip install faiss-cpu transformers sentence-transformers datasets pymupdf
